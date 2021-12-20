@@ -18,7 +18,7 @@ import * as Font from 'expo-font';
 import { RFValue } from "react-native-responsive-fontsize";
 
 let customFonts = {
-    "Bubblegum-Sans": require("../BubbleGum.ttf")
+    "Bubblegum-Sans": require("./BubbleGum.ttf")
   };
   
   export default class CreateStory extends Component {
