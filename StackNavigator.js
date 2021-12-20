@@ -6,7 +6,7 @@ import {createStackNavigation} from '@react-navigation/stack';
 const Stack=createStackNavigation();
 const StackNavigator=()=>{
 return(
-    <Stack.TabNavigator initialRouteName="Home" screenOptions={{headerShown=false}}>
+    <Stack.TabNavigator initialRouteName="Home" screenOptions={{headerShown:false}}>
         <Stack.Screen name={"Home"} component={TabNavigator}/>
         <Stack.Screen name={"Post"} component={Post}/>
     </Stack.TabNavigator>
