@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Text,View,StyleSheet, StatusBar, FlatList} from 'react-native';
+import {Text,View,StyleSheet, StatusBar, FlatList,Platform} from 'react-native';
 import PostCard from './PostCard';
 import { RFValue } from 'react-native-responsive-fontsize';
 
@@ -39,7 +39,7 @@ contain:{
     backgroundColor:"black"
 },
 droidSafeArea:{
-    marginTop:Platfoem.OS==="android"?StatusBar.currentHeight:RFValue(30)
+    marginTop:Platform.OS==="android"?StatusBar.currentHeight:RFValue(30)
 },
 appTitle:{
     flex:0.07,
