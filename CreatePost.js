@@ -14,7 +14,7 @@ import {
 import DropDownPicker from 'react-native-dropdown-picker';
 import AppLoading from 'expo-app-loading';
 import * as Font from 'expo-font';
-
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import { RFValue } from "react-native-responsive-fontsize";
 
 let customFonts = {
