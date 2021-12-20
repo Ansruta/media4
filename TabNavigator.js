@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {createMaterialBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
 import Feed from './Feed';
 import CreatePost from './CreatePost';
 import { RFValue } from 'react-native-responsive-fontsize';
