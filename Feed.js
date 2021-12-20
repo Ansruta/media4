@@ -13,7 +13,7 @@ import {
 } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import DropDownPicker from "react-native-dropdown-picker";
-
+import { FlatList } from "react-native-gesture-handler";
 import AppLoading from "expo-app-loading";
 import * as Font from "expo-font";
 
