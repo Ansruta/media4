@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Text,View,StyleSheet, StatusBar, FlatList,Platform} from 'react-native';
+import {Text,View,StyleSheet, StatusBar, FlatList,Platform,SafeAreaView,ScrollView} from 'react-native';
 import PostCard from './PostCard';
 import { RFValue } from 'react-native-responsive-fontsize';
 
