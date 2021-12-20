@@ -4,6 +4,7 @@ import DropDownPicker from 'react-native-dropdown-picker';
 import AppLoading from 'expo-app-loading';
 import * as Font from 'expo-font';
 import { TextInput } from 'react-native-paper';
+import { RFValue } from "react-native-responsive-fontsize";
 
 let customFonts = {
     "Bubblegum-Sans": require("../BubbleGum.ttf")
