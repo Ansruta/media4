@@ -1,7 +1,22 @@
 import * as React from 'react';
-import {Text,View,StyleSheet, StatusBar, FlatList,Platform,SafeAreaView,ScrollView} from 'react-native';
-import PostCard from './PostCard';
-import { RFValue } from 'react-native-responsive-fontsize';
+import {
+  View,
+  Text,
+  StyleSheet,
+  SafeAreaView,
+  Platform,
+  StatusBar,
+  Image,
+  ScrollView,
+  TextInput,
+  Dimensions
+} from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
+import DropDownPicker from "react-native-dropdown-picker";
+
+import AppLoading from "expo-app-loading";
+import * as Font from "expo-font";
+
 
 
 export default class Feed extends React.Component{
