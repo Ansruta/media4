@@ -118,7 +118,7 @@ contain:{
     backgroundColor:"black"
 },
 droidSafeArea:{
-    marginTop:Platfoem.OS==="android"?StatusBar.currentHeight:RFvalue(30)
+    marginTop:Platform.OS==="android"?StatusBar.currentHeight:RFvalue(30)
 },
 appTitle:{
     flex:0.07,
