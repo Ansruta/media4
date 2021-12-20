@@ -16,7 +16,7 @@ import DropDownPicker from "react-native-dropdown-picker";
 import { FlatList } from "react-native-gesture-handler";
 import AppLoading from "expo-app-loading";
 import * as Font from "expo-font";
-
+  import PostCard from './PostCard';
 
 
 export default class Feed extends React.Component{
